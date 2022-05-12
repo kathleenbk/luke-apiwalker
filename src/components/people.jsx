@@ -13,7 +13,7 @@ const People = (props) => {
                 setPerson(response.data)
             }).catch(err => {
                 console.log('You have reached an error!!!');
-                console.log(err)});
+            })
 
     }, [id]);
 
